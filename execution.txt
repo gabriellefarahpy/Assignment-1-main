@@ -1,0 +1,1091 @@
+0, 51, CPU Burst
+51, 1, switch to kernel mode
+52, 10, context saved
+62, 1, find vector 14 in memory position 0x001C
+63, 1, load address 0X0165 into the PC
+64, 40, SYSCALL: run the ISR (device driver)
+104, 40, SYSCALL: run the ISR (device driver)
+144, 40, SYSCALL: run the ISR (device driver)
+184, 40, SYSCALL: run the ISR (device driver)
+224, 40, SYSCALL: run the ISR (device driver)
+264, 40, SYSCALL: run the ISR (device driver)
+304, 40, SYSCALL: run the ISR (device driver)
+344, 40, SYSCALL: run the ISR (device driver)
+384, 40, SYSCALL: run the ISR (device driver)
+424, 40, SYSCALL: run the ISR (device driver)
+464, 40, SYSCALL: run the ISR (device driver)
+504, 16, SYSCALL: run the ISR (device driver)
+520, 1, IRET
+521, 39, CPU Burst
+560, 1, switch to kernel mode
+561, 10, context saved
+571, 1, find vector 14 in memory position 0x001C
+572, 1, load address 0X0165 into the PC
+573, 40, ENDIO: run the ISR (device driver)
+613, 40, ENDIO: run the ISR (device driver)
+653, 40, ENDIO: run the ISR (device driver)
+693, 40, ENDIO: run the ISR (device driver)
+733, 40, ENDIO: run the ISR (device driver)
+773, 40, ENDIO: run the ISR (device driver)
+813, 40, ENDIO: run the ISR (device driver)
+853, 40, ENDIO: run the ISR (device driver)
+893, 40, ENDIO: run the ISR (device driver)
+933, 40, ENDIO: run the ISR (device driver)
+973, 40, ENDIO: run the ISR (device driver)
+1013, 16, ENDIO: run the ISR (device driver)
+1029, 1, IRET
+1030, 72, CPU Burst
+1102, 1, switch to kernel mode
+1103, 10, context saved
+1113, 1, find vector 19 in memory position 0x0026
+1114, 1, load address 0X0765 into the PC
+1115, 40, SYSCALL: run the ISR (device driver)
+1155, 40, SYSCALL: run the ISR (device driver)
+1195, 40, SYSCALL: run the ISR (device driver)
+1235, 40, SYSCALL: run the ISR (device driver)
+1275, 40, SYSCALL: run the ISR (device driver)
+1315, 40, SYSCALL: run the ISR (device driver)
+1355, 40, SYSCALL: run the ISR (device driver)
+1395, 40, SYSCALL: run the ISR (device driver)
+1435, 40, SYSCALL: run the ISR (device driver)
+1475, 40, SYSCALL: run the ISR (device driver)
+1515, 40, SYSCALL: run the ISR (device driver)
+1555, 40, SYSCALL: run the ISR (device driver)
+1595, 40, SYSCALL: run the ISR (device driver)
+1635, 40, SYSCALL: run the ISR (device driver)
+1675, 40, SYSCALL: run the ISR (device driver)
+1715, 40, SYSCALL: run the ISR (device driver)
+1755, 12, SYSCALL: run the ISR (device driver)
+1767, 1, IRET
+1768, 28, CPU Burst
+1796, 1, switch to kernel mode
+1797, 10, context saved
+1807, 1, find vector 19 in memory position 0x0026
+1808, 1, load address 0X0765 into the PC
+1809, 40, ENDIO: run the ISR (device driver)
+1849, 40, ENDIO: run the ISR (device driver)
+1889, 40, ENDIO: run the ISR (device driver)
+1929, 40, ENDIO: run the ISR (device driver)
+1969, 40, ENDIO: run the ISR (device driver)
+2009, 40, ENDIO: run the ISR (device driver)
+2049, 40, ENDIO: run the ISR (device driver)
+2089, 40, ENDIO: run the ISR (device driver)
+2129, 40, ENDIO: run the ISR (device driver)
+2169, 40, ENDIO: run the ISR (device driver)
+2209, 40, ENDIO: run the ISR (device driver)
+2249, 40, ENDIO: run the ISR (device driver)
+2289, 40, ENDIO: run the ISR (device driver)
+2329, 40, ENDIO: run the ISR (device driver)
+2369, 40, ENDIO: run the ISR (device driver)
+2409, 40, ENDIO: run the ISR (device driver)
+2449, 12, ENDIO: run the ISR (device driver)
+2461, 1, IRET
+2462, 32, CPU Burst
+2494, 1, switch to kernel mode
+2495, 10, context saved
+2505, 1, find vector 7 in memory position 0x000E
+2506, 1, load address 0X00BD into the PC
+2507, 40, SYSCALL: run the ISR (device driver)
+2547, 40, SYSCALL: run the ISR (device driver)
+2587, 40, SYSCALL: run the ISR (device driver)
+2627, 32, SYSCALL: run the ISR (device driver)
+2659, 1, IRET
+2660, 25, CPU Burst
+2685, 1, switch to kernel mode
+2686, 10, context saved
+2696, 1, find vector 7 in memory position 0x000E
+2697, 1, load address 0X00BD into the PC
+2698, 40, ENDIO: run the ISR (device driver)
+2738, 40, ENDIO: run the ISR (device driver)
+2778, 40, ENDIO: run the ISR (device driver)
+2818, 32, ENDIO: run the ISR (device driver)
+2850, 1, IRET
+2851, 11, CPU Burst
+2862, 1, switch to kernel mode
+2863, 10, context saved
+2873, 1, find vector 16 in memory position 0x0020
+2874, 1, load address 0X02DF into the PC
+2875, 40, SYSCALL: run the ISR (device driver)
+2915, 40, SYSCALL: run the ISR (device driver)
+2955, 40, SYSCALL: run the ISR (device driver)
+2995, 40, SYSCALL: run the ISR (device driver)
+3035, 40, SYSCALL: run the ISR (device driver)
+3075, 40, SYSCALL: run the ISR (device driver)
+3115, 40, SYSCALL: run the ISR (device driver)
+3155, 40, SYSCALL: run the ISR (device driver)
+3195, 40, SYSCALL: run the ISR (device driver)
+3235, 40, SYSCALL: run the ISR (device driver)
+3275, 40, SYSCALL: run the ISR (device driver)
+3315, 40, SYSCALL: run the ISR (device driver)
+3355, 40, SYSCALL: run the ISR (device driver)
+3395, 40, SYSCALL: run the ISR (device driver)
+3435, 40, SYSCALL: run the ISR (device driver)
+3475, 40, SYSCALL: run the ISR (device driver)
+3515, 40, SYSCALL: run the ISR (device driver)
+3555, 40, SYSCALL: run the ISR (device driver)
+3595, 40, SYSCALL: run the ISR (device driver)
+3635, 40, SYSCALL: run the ISR (device driver)
+3675, 40, SYSCALL: run the ISR (device driver)
+3715, 40, SYSCALL: run the ISR (device driver)
+3755, 40, SYSCALL: run the ISR (device driver)
+3795, 36, SYSCALL: run the ISR (device driver)
+3831, 1, IRET
+3832, 54, CPU Burst
+3886, 1, switch to kernel mode
+3887, 10, context saved
+3897, 1, find vector 16 in memory position 0x0020
+3898, 1, load address 0X02DF into the PC
+3899, 40, ENDIO: run the ISR (device driver)
+3939, 40, ENDIO: run the ISR (device driver)
+3979, 40, ENDIO: run the ISR (device driver)
+4019, 40, ENDIO: run the ISR (device driver)
+4059, 40, ENDIO: run the ISR (device driver)
+4099, 40, ENDIO: run the ISR (device driver)
+4139, 40, ENDIO: run the ISR (device driver)
+4179, 40, ENDIO: run the ISR (device driver)
+4219, 40, ENDIO: run the ISR (device driver)
+4259, 40, ENDIO: run the ISR (device driver)
+4299, 40, ENDIO: run the ISR (device driver)
+4339, 40, ENDIO: run the ISR (device driver)
+4379, 40, ENDIO: run the ISR (device driver)
+4419, 40, ENDIO: run the ISR (device driver)
+4459, 40, ENDIO: run the ISR (device driver)
+4499, 40, ENDIO: run the ISR (device driver)
+4539, 40, ENDIO: run the ISR (device driver)
+4579, 40, ENDIO: run the ISR (device driver)
+4619, 40, ENDIO: run the ISR (device driver)
+4659, 40, ENDIO: run the ISR (device driver)
+4699, 40, ENDIO: run the ISR (device driver)
+4739, 40, ENDIO: run the ISR (device driver)
+4779, 40, ENDIO: run the ISR (device driver)
+4819, 36, ENDIO: run the ISR (device driver)
+4855, 1, IRET
+4856, 96, CPU Burst
+4952, 1, switch to kernel mode
+4953, 10, context saved
+4963, 1, find vector 8 in memory position 0x0010
+4964, 1, load address 0X06EF into the PC
+4965, 40, SYSCALL: run the ISR (device driver)
+5005, 40, SYSCALL: run the ISR (device driver)
+5045, 40, SYSCALL: run the ISR (device driver)
+5085, 40, SYSCALL: run the ISR (device driver)
+5125, 40, SYSCALL: run the ISR (device driver)
+5165, 40, SYSCALL: run the ISR (device driver)
+5205, 40, SYSCALL: run the ISR (device driver)
+5245, 40, SYSCALL: run the ISR (device driver)
+5285, 40, SYSCALL: run the ISR (device driver)
+5325, 40, SYSCALL: run the ISR (device driver)
+5365, 40, SYSCALL: run the ISR (device driver)
+5405, 40, SYSCALL: run the ISR (device driver)
+5445, 40, SYSCALL: run the ISR (device driver)
+5485, 40, SYSCALL: run the ISR (device driver)
+5525, 40, SYSCALL: run the ISR (device driver)
+5565, 40, SYSCALL: run the ISR (device driver)
+5605, 40, SYSCALL: run the ISR (device driver)
+5645, 40, SYSCALL: run the ISR (device driver)
+5685, 40, SYSCALL: run the ISR (device driver)
+5725, 40, SYSCALL: run the ISR (device driver)
+5765, 40, SYSCALL: run the ISR (device driver)
+5805, 40, SYSCALL: run the ISR (device driver)
+5845, 40, SYSCALL: run the ISR (device driver)
+5885, 40, SYSCALL: run the ISR (device driver)
+5925, 40, SYSCALL: run the ISR (device driver)
+5965, 1, IRET
+5966, 54, CPU Burst
+6020, 1, switch to kernel mode
+6021, 10, context saved
+6031, 1, find vector 8 in memory position 0x0010
+6032, 1, load address 0X06EF into the PC
+6033, 40, ENDIO: run the ISR (device driver)
+6073, 40, ENDIO: run the ISR (device driver)
+6113, 40, ENDIO: run the ISR (device driver)
+6153, 40, ENDIO: run the ISR (device driver)
+6193, 40, ENDIO: run the ISR (device driver)
+6233, 40, ENDIO: run the ISR (device driver)
+6273, 40, ENDIO: run the ISR (device driver)
+6313, 40, ENDIO: run the ISR (device driver)
+6353, 40, ENDIO: run the ISR (device driver)
+6393, 40, ENDIO: run the ISR (device driver)
+6433, 40, ENDIO: run the ISR (device driver)
+6473, 40, ENDIO: run the ISR (device driver)
+6513, 40, ENDIO: run the ISR (device driver)
+6553, 40, ENDIO: run the ISR (device driver)
+6593, 40, ENDIO: run the ISR (device driver)
+6633, 40, ENDIO: run the ISR (device driver)
+6673, 40, ENDIO: run the ISR (device driver)
+6713, 40, ENDIO: run the ISR (device driver)
+6753, 40, ENDIO: run the ISR (device driver)
+6793, 40, ENDIO: run the ISR (device driver)
+6833, 40, ENDIO: run the ISR (device driver)
+6873, 40, ENDIO: run the ISR (device driver)
+6913, 40, ENDIO: run the ISR (device driver)
+6953, 40, ENDIO: run the ISR (device driver)
+6993, 40, ENDIO: run the ISR (device driver)
+7033, 1, IRET
+7034, 77, CPU Burst
+7111, 1, switch to kernel mode
+7112, 10, context saved
+7122, 1, find vector 11 in memory position 0x0016
+7123, 1, load address 0X01F8 into the PC
+7124, 40, SYSCALL: run the ISR (device driver)
+7164, 40, SYSCALL: run the ISR (device driver)
+7204, 40, SYSCALL: run the ISR (device driver)
+7244, 40, SYSCALL: run the ISR (device driver)
+7284, 40, SYSCALL: run the ISR (device driver)
+7324, 40, SYSCALL: run the ISR (device driver)
+7364, 40, SYSCALL: run the ISR (device driver)
+7404, 40, SYSCALL: run the ISR (device driver)
+7444, 40, SYSCALL: run the ISR (device driver)
+7484, 40, SYSCALL: run the ISR (device driver)
+7524, 40, SYSCALL: run the ISR (device driver)
+7564, 40, SYSCALL: run the ISR (device driver)
+7604, 40, SYSCALL: run the ISR (device driver)
+7644, 3, SYSCALL: run the ISR (device driver)
+7647, 1, IRET
+7648, 33, CPU Burst
+7681, 1, switch to kernel mode
+7682, 10, context saved
+7692, 1, find vector 11 in memory position 0x0016
+7693, 1, load address 0X01F8 into the PC
+7694, 40, ENDIO: run the ISR (device driver)
+7734, 40, ENDIO: run the ISR (device driver)
+7774, 40, ENDIO: run the ISR (device driver)
+7814, 40, ENDIO: run the ISR (device driver)
+7854, 40, ENDIO: run the ISR (device driver)
+7894, 40, ENDIO: run the ISR (device driver)
+7934, 40, ENDIO: run the ISR (device driver)
+7974, 40, ENDIO: run the ISR (device driver)
+8014, 40, ENDIO: run the ISR (device driver)
+8054, 40, ENDIO: run the ISR (device driver)
+8094, 40, ENDIO: run the ISR (device driver)
+8134, 40, ENDIO: run the ISR (device driver)
+8174, 40, ENDIO: run the ISR (device driver)
+8214, 3, ENDIO: run the ISR (device driver)
+8217, 1, IRET
+8218, 60, CPU Burst
+8278, 1, switch to kernel mode
+8279, 10, context saved
+8289, 1, find vector 16 in memory position 0x0020
+8290, 1, load address 0X02DF into the PC
+8291, 40, SYSCALL: run the ISR (device driver)
+8331, 40, SYSCALL: run the ISR (device driver)
+8371, 40, SYSCALL: run the ISR (device driver)
+8411, 40, SYSCALL: run the ISR (device driver)
+8451, 40, SYSCALL: run the ISR (device driver)
+8491, 40, SYSCALL: run the ISR (device driver)
+8531, 40, SYSCALL: run the ISR (device driver)
+8571, 40, SYSCALL: run the ISR (device driver)
+8611, 40, SYSCALL: run the ISR (device driver)
+8651, 40, SYSCALL: run the ISR (device driver)
+8691, 40, SYSCALL: run the ISR (device driver)
+8731, 40, SYSCALL: run the ISR (device driver)
+8771, 40, SYSCALL: run the ISR (device driver)
+8811, 40, SYSCALL: run the ISR (device driver)
+8851, 40, SYSCALL: run the ISR (device driver)
+8891, 40, SYSCALL: run the ISR (device driver)
+8931, 40, SYSCALL: run the ISR (device driver)
+8971, 40, SYSCALL: run the ISR (device driver)
+9011, 40, SYSCALL: run the ISR (device driver)
+9051, 40, SYSCALL: run the ISR (device driver)
+9091, 40, SYSCALL: run the ISR (device driver)
+9131, 40, SYSCALL: run the ISR (device driver)
+9171, 40, SYSCALL: run the ISR (device driver)
+9211, 36, SYSCALL: run the ISR (device driver)
+9247, 1, IRET
+9248, 21, CPU Burst
+9269, 1, switch to kernel mode
+9270, 10, context saved
+9280, 1, find vector 16 in memory position 0x0020
+9281, 1, load address 0X02DF into the PC
+9282, 40, ENDIO: run the ISR (device driver)
+9322, 40, ENDIO: run the ISR (device driver)
+9362, 40, ENDIO: run the ISR (device driver)
+9402, 40, ENDIO: run the ISR (device driver)
+9442, 40, ENDIO: run the ISR (device driver)
+9482, 40, ENDIO: run the ISR (device driver)
+9522, 40, ENDIO: run the ISR (device driver)
+9562, 40, ENDIO: run the ISR (device driver)
+9602, 40, ENDIO: run the ISR (device driver)
+9642, 40, ENDIO: run the ISR (device driver)
+9682, 40, ENDIO: run the ISR (device driver)
+9722, 40, ENDIO: run the ISR (device driver)
+9762, 40, ENDIO: run the ISR (device driver)
+9802, 40, ENDIO: run the ISR (device driver)
+9842, 40, ENDIO: run the ISR (device driver)
+9882, 40, ENDIO: run the ISR (device driver)
+9922, 40, ENDIO: run the ISR (device driver)
+9962, 40, ENDIO: run the ISR (device driver)
+10002, 40, ENDIO: run the ISR (device driver)
+10042, 40, ENDIO: run the ISR (device driver)
+10082, 40, ENDIO: run the ISR (device driver)
+10122, 40, ENDIO: run the ISR (device driver)
+10162, 40, ENDIO: run the ISR (device driver)
+10202, 36, ENDIO: run the ISR (device driver)
+10238, 1, IRET
+10239, 19, CPU Burst
+10258, 1, switch to kernel mode
+10259, 10, context saved
+10269, 1, find vector 2 in memory position 0x0004
+10270, 1, load address 0X0695 into the PC
+10271, 40, SYSCALL: run the ISR (device driver)
+10311, 40, SYSCALL: run the ISR (device driver)
+10351, 40, SYSCALL: run the ISR (device driver)
+10391, 30, SYSCALL: run the ISR (device driver)
+10421, 1, IRET
+10422, 26, CPU Burst
+10448, 1, switch to kernel mode
+10449, 10, context saved
+10459, 1, find vector 2 in memory position 0x0004
+10460, 1, load address 0X0695 into the PC
+10461, 40, ENDIO: run the ISR (device driver)
+10501, 40, ENDIO: run the ISR (device driver)
+10541, 40, ENDIO: run the ISR (device driver)
+10581, 30, ENDIO: run the ISR (device driver)
+10611, 1, IRET
+10612, 38, CPU Burst
+10650, 1, switch to kernel mode
+10651, 10, context saved
+10661, 1, find vector 16 in memory position 0x0020
+10662, 1, load address 0X02DF into the PC
+10663, 40, SYSCALL: run the ISR (device driver)
+10703, 40, SYSCALL: run the ISR (device driver)
+10743, 40, SYSCALL: run the ISR (device driver)
+10783, 40, SYSCALL: run the ISR (device driver)
+10823, 40, SYSCALL: run the ISR (device driver)
+10863, 40, SYSCALL: run the ISR (device driver)
+10903, 40, SYSCALL: run the ISR (device driver)
+10943, 40, SYSCALL: run the ISR (device driver)
+10983, 40, SYSCALL: run the ISR (device driver)
+11023, 40, SYSCALL: run the ISR (device driver)
+11063, 40, SYSCALL: run the ISR (device driver)
+11103, 40, SYSCALL: run the ISR (device driver)
+11143, 40, SYSCALL: run the ISR (device driver)
+11183, 40, SYSCALL: run the ISR (device driver)
+11223, 40, SYSCALL: run the ISR (device driver)
+11263, 40, SYSCALL: run the ISR (device driver)
+11303, 40, SYSCALL: run the ISR (device driver)
+11343, 40, SYSCALL: run the ISR (device driver)
+11383, 40, SYSCALL: run the ISR (device driver)
+11423, 40, SYSCALL: run the ISR (device driver)
+11463, 40, SYSCALL: run the ISR (device driver)
+11503, 40, SYSCALL: run the ISR (device driver)
+11543, 40, SYSCALL: run the ISR (device driver)
+11583, 36, SYSCALL: run the ISR (device driver)
+11619, 1, IRET
+11620, 28, CPU Burst
+11648, 1, switch to kernel mode
+11649, 10, context saved
+11659, 1, find vector 16 in memory position 0x0020
+11660, 1, load address 0X02DF into the PC
+11661, 40, ENDIO: run the ISR (device driver)
+11701, 40, ENDIO: run the ISR (device driver)
+11741, 40, ENDIO: run the ISR (device driver)
+11781, 40, ENDIO: run the ISR (device driver)
+11821, 40, ENDIO: run the ISR (device driver)
+11861, 40, ENDIO: run the ISR (device driver)
+11901, 40, ENDIO: run the ISR (device driver)
+11941, 40, ENDIO: run the ISR (device driver)
+11981, 40, ENDIO: run the ISR (device driver)
+12021, 40, ENDIO: run the ISR (device driver)
+12061, 40, ENDIO: run the ISR (device driver)
+12101, 40, ENDIO: run the ISR (device driver)
+12141, 40, ENDIO: run the ISR (device driver)
+12181, 40, ENDIO: run the ISR (device driver)
+12221, 40, ENDIO: run the ISR (device driver)
+12261, 40, ENDIO: run the ISR (device driver)
+12301, 40, ENDIO: run the ISR (device driver)
+12341, 40, ENDIO: run the ISR (device driver)
+12381, 40, ENDIO: run the ISR (device driver)
+12421, 40, ENDIO: run the ISR (device driver)
+12461, 40, ENDIO: run the ISR (device driver)
+12501, 40, ENDIO: run the ISR (device driver)
+12541, 40, ENDIO: run the ISR (device driver)
+12581, 36, ENDIO: run the ISR (device driver)
+12617, 1, IRET
+12618, 65, CPU Burst
+12683, 1, switch to kernel mode
+12684, 10, context saved
+12694, 1, find vector 16 in memory position 0x0020
+12695, 1, load address 0X02DF into the PC
+12696, 40, SYSCALL: run the ISR (device driver)
+12736, 40, SYSCALL: run the ISR (device driver)
+12776, 40, SYSCALL: run the ISR (device driver)
+12816, 40, SYSCALL: run the ISR (device driver)
+12856, 40, SYSCALL: run the ISR (device driver)
+12896, 40, SYSCALL: run the ISR (device driver)
+12936, 40, SYSCALL: run the ISR (device driver)
+12976, 40, SYSCALL: run the ISR (device driver)
+13016, 40, SYSCALL: run the ISR (device driver)
+13056, 40, SYSCALL: run the ISR (device driver)
+13096, 40, SYSCALL: run the ISR (device driver)
+13136, 40, SYSCALL: run the ISR (device driver)
+13176, 40, SYSCALL: run the ISR (device driver)
+13216, 40, SYSCALL: run the ISR (device driver)
+13256, 40, SYSCALL: run the ISR (device driver)
+13296, 40, SYSCALL: run the ISR (device driver)
+13336, 40, SYSCALL: run the ISR (device driver)
+13376, 40, SYSCALL: run the ISR (device driver)
+13416, 40, SYSCALL: run the ISR (device driver)
+13456, 40, SYSCALL: run the ISR (device driver)
+13496, 40, SYSCALL: run the ISR (device driver)
+13536, 40, SYSCALL: run the ISR (device driver)
+13576, 40, SYSCALL: run the ISR (device driver)
+13616, 36, SYSCALL: run the ISR (device driver)
+13652, 1, IRET
+13653, 88, CPU Burst
+13741, 1, switch to kernel mode
+13742, 10, context saved
+13752, 1, find vector 16 in memory position 0x0020
+13753, 1, load address 0X02DF into the PC
+13754, 40, ENDIO: run the ISR (device driver)
+13794, 40, ENDIO: run the ISR (device driver)
+13834, 40, ENDIO: run the ISR (device driver)
+13874, 40, ENDIO: run the ISR (device driver)
+13914, 40, ENDIO: run the ISR (device driver)
+13954, 40, ENDIO: run the ISR (device driver)
+13994, 40, ENDIO: run the ISR (device driver)
+14034, 40, ENDIO: run the ISR (device driver)
+14074, 40, ENDIO: run the ISR (device driver)
+14114, 40, ENDIO: run the ISR (device driver)
+14154, 40, ENDIO: run the ISR (device driver)
+14194, 40, ENDIO: run the ISR (device driver)
+14234, 40, ENDIO: run the ISR (device driver)
+14274, 40, ENDIO: run the ISR (device driver)
+14314, 40, ENDIO: run the ISR (device driver)
+14354, 40, ENDIO: run the ISR (device driver)
+14394, 40, ENDIO: run the ISR (device driver)
+14434, 40, ENDIO: run the ISR (device driver)
+14474, 40, ENDIO: run the ISR (device driver)
+14514, 40, ENDIO: run the ISR (device driver)
+14554, 40, ENDIO: run the ISR (device driver)
+14594, 40, ENDIO: run the ISR (device driver)
+14634, 40, ENDIO: run the ISR (device driver)
+14674, 36, ENDIO: run the ISR (device driver)
+14710, 1, IRET
+14711, 100, CPU Burst
+14811, 1, switch to kernel mode
+14812, 10, context saved
+14822, 1, find vector 17 in memory position 0x0022
+14823, 1, load address 0X05B3 into the PC
+14824, 40, SYSCALL: run the ISR (device driver)
+14864, 40, SYSCALL: run the ISR (device driver)
+14904, 40, SYSCALL: run the ISR (device driver)
+14944, 40, SYSCALL: run the ISR (device driver)
+14984, 40, SYSCALL: run the ISR (device driver)
+15024, 35, SYSCALL: run the ISR (device driver)
+15059, 1, IRET
+15060, 28, CPU Burst
+15088, 1, switch to kernel mode
+15089, 10, context saved
+15099, 1, find vector 17 in memory position 0x0022
+15100, 1, load address 0X05B3 into the PC
+15101, 40, ENDIO: run the ISR (device driver)
+15141, 40, ENDIO: run the ISR (device driver)
+15181, 40, ENDIO: run the ISR (device driver)
+15221, 40, ENDIO: run the ISR (device driver)
+15261, 40, ENDIO: run the ISR (device driver)
+15301, 35, ENDIO: run the ISR (device driver)
+15336, 1, IRET
+15337, 25, CPU Burst
+15362, 1, switch to kernel mode
+15363, 10, context saved
+15373, 1, find vector 1 in memory position 0x0002
+15374, 1, load address 0X029C into the PC
+15375, 40, SYSCALL: run the ISR (device driver)
+15415, 40, SYSCALL: run the ISR (device driver)
+15455, 20, SYSCALL: run the ISR (device driver)
+15475, 1, IRET
+15476, 21, CPU Burst
+15497, 1, switch to kernel mode
+15498, 10, context saved
+15508, 1, find vector 1 in memory position 0x0002
+15509, 1, load address 0X029C into the PC
+15510, 40, ENDIO: run the ISR (device driver)
+15550, 40, ENDIO: run the ISR (device driver)
+15590, 20, ENDIO: run the ISR (device driver)
+15610, 1, IRET
+15611, 25, CPU Burst
+15636, 1, switch to kernel mode
+15637, 10, context saved
+15647, 1, find vector 19 in memory position 0x0026
+15648, 1, load address 0X0765 into the PC
+15649, 40, SYSCALL: run the ISR (device driver)
+15689, 40, SYSCALL: run the ISR (device driver)
+15729, 40, SYSCALL: run the ISR (device driver)
+15769, 40, SYSCALL: run the ISR (device driver)
+15809, 40, SYSCALL: run the ISR (device driver)
+15849, 40, SYSCALL: run the ISR (device driver)
+15889, 40, SYSCALL: run the ISR (device driver)
+15929, 40, SYSCALL: run the ISR (device driver)
+15969, 40, SYSCALL: run the ISR (device driver)
+16009, 40, SYSCALL: run the ISR (device driver)
+16049, 40, SYSCALL: run the ISR (device driver)
+16089, 40, SYSCALL: run the ISR (device driver)
+16129, 40, SYSCALL: run the ISR (device driver)
+16169, 40, SYSCALL: run the ISR (device driver)
+16209, 40, SYSCALL: run the ISR (device driver)
+16249, 40, SYSCALL: run the ISR (device driver)
+16289, 12, SYSCALL: run the ISR (device driver)
+16301, 1, IRET
+16302, 34, CPU Burst
+16336, 1, switch to kernel mode
+16337, 10, context saved
+16347, 1, find vector 19 in memory position 0x0026
+16348, 1, load address 0X0765 into the PC
+16349, 40, ENDIO: run the ISR (device driver)
+16389, 40, ENDIO: run the ISR (device driver)
+16429, 40, ENDIO: run the ISR (device driver)
+16469, 40, ENDIO: run the ISR (device driver)
+16509, 40, ENDIO: run the ISR (device driver)
+16549, 40, ENDIO: run the ISR (device driver)
+16589, 40, ENDIO: run the ISR (device driver)
+16629, 40, ENDIO: run the ISR (device driver)
+16669, 40, ENDIO: run the ISR (device driver)
+16709, 40, ENDIO: run the ISR (device driver)
+16749, 40, ENDIO: run the ISR (device driver)
+16789, 40, ENDIO: run the ISR (device driver)
+16829, 40, ENDIO: run the ISR (device driver)
+16869, 40, ENDIO: run the ISR (device driver)
+16909, 40, ENDIO: run the ISR (device driver)
+16949, 40, ENDIO: run the ISR (device driver)
+16989, 12, ENDIO: run the ISR (device driver)
+17001, 1, IRET
+17002, 34, CPU Burst
+17036, 1, switch to kernel mode
+17037, 10, context saved
+17047, 1, find vector 8 in memory position 0x0010
+17048, 1, load address 0X06EF into the PC
+17049, 40, SYSCALL: run the ISR (device driver)
+17089, 40, SYSCALL: run the ISR (device driver)
+17129, 40, SYSCALL: run the ISR (device driver)
+17169, 40, SYSCALL: run the ISR (device driver)
+17209, 40, SYSCALL: run the ISR (device driver)
+17249, 40, SYSCALL: run the ISR (device driver)
+17289, 40, SYSCALL: run the ISR (device driver)
+17329, 40, SYSCALL: run the ISR (device driver)
+17369, 40, SYSCALL: run the ISR (device driver)
+17409, 40, SYSCALL: run the ISR (device driver)
+17449, 40, SYSCALL: run the ISR (device driver)
+17489, 40, SYSCALL: run the ISR (device driver)
+17529, 40, SYSCALL: run the ISR (device driver)
+17569, 40, SYSCALL: run the ISR (device driver)
+17609, 40, SYSCALL: run the ISR (device driver)
+17649, 40, SYSCALL: run the ISR (device driver)
+17689, 40, SYSCALL: run the ISR (device driver)
+17729, 40, SYSCALL: run the ISR (device driver)
+17769, 40, SYSCALL: run the ISR (device driver)
+17809, 40, SYSCALL: run the ISR (device driver)
+17849, 40, SYSCALL: run the ISR (device driver)
+17889, 40, SYSCALL: run the ISR (device driver)
+17929, 40, SYSCALL: run the ISR (device driver)
+17969, 40, SYSCALL: run the ISR (device driver)
+18009, 40, SYSCALL: run the ISR (device driver)
+18049, 1, IRET
+18050, 59, CPU Burst
+18109, 1, switch to kernel mode
+18110, 10, context saved
+18120, 1, find vector 8 in memory position 0x0010
+18121, 1, load address 0X06EF into the PC
+18122, 40, ENDIO: run the ISR (device driver)
+18162, 40, ENDIO: run the ISR (device driver)
+18202, 40, ENDIO: run the ISR (device driver)
+18242, 40, ENDIO: run the ISR (device driver)
+18282, 40, ENDIO: run the ISR (device driver)
+18322, 40, ENDIO: run the ISR (device driver)
+18362, 40, ENDIO: run the ISR (device driver)
+18402, 40, ENDIO: run the ISR (device driver)
+18442, 40, ENDIO: run the ISR (device driver)
+18482, 40, ENDIO: run the ISR (device driver)
+18522, 40, ENDIO: run the ISR (device driver)
+18562, 40, ENDIO: run the ISR (device driver)
+18602, 40, ENDIO: run the ISR (device driver)
+18642, 40, ENDIO: run the ISR (device driver)
+18682, 40, ENDIO: run the ISR (device driver)
+18722, 40, ENDIO: run the ISR (device driver)
+18762, 40, ENDIO: run the ISR (device driver)
+18802, 40, ENDIO: run the ISR (device driver)
+18842, 40, ENDIO: run the ISR (device driver)
+18882, 40, ENDIO: run the ISR (device driver)
+18922, 40, ENDIO: run the ISR (device driver)
+18962, 40, ENDIO: run the ISR (device driver)
+19002, 40, ENDIO: run the ISR (device driver)
+19042, 40, ENDIO: run the ISR (device driver)
+19082, 40, ENDIO: run the ISR (device driver)
+19122, 1, IRET
+19123, 44, CPU Burst
+19167, 1, switch to kernel mode
+19168, 10, context saved
+19178, 1, find vector 15 in memory position 0x001E
+19179, 1, load address 0X0584 into the PC
+19180, 40, SYSCALL: run the ISR (device driver)
+19220, 28, SYSCALL: run the ISR (device driver)
+19248, 1, IRET
+19249, 51, CPU Burst
+19300, 1, switch to kernel mode
+19301, 10, context saved
+19311, 1, find vector 15 in memory position 0x001E
+19312, 1, load address 0X0584 into the PC
+19313, 40, ENDIO: run the ISR (device driver)
+19353, 28, ENDIO: run the ISR (device driver)
+19381, 1, IRET
+19382, 87, CPU Burst
+19469, 1, switch to kernel mode
+19470, 10, context saved
+19480, 1, find vector 11 in memory position 0x0016
+19481, 1, load address 0X01F8 into the PC
+19482, 40, SYSCALL: run the ISR (device driver)
+19522, 40, SYSCALL: run the ISR (device driver)
+19562, 40, SYSCALL: run the ISR (device driver)
+19602, 40, SYSCALL: run the ISR (device driver)
+19642, 40, SYSCALL: run the ISR (device driver)
+19682, 40, SYSCALL: run the ISR (device driver)
+19722, 40, SYSCALL: run the ISR (device driver)
+19762, 40, SYSCALL: run the ISR (device driver)
+19802, 40, SYSCALL: run the ISR (device driver)
+19842, 40, SYSCALL: run the ISR (device driver)
+19882, 40, SYSCALL: run the ISR (device driver)
+19922, 40, SYSCALL: run the ISR (device driver)
+19962, 40, SYSCALL: run the ISR (device driver)
+20002, 3, SYSCALL: run the ISR (device driver)
+20005, 1, IRET
+20006, 65, CPU Burst
+20071, 1, switch to kernel mode
+20072, 10, context saved
+20082, 1, find vector 11 in memory position 0x0016
+20083, 1, load address 0X01F8 into the PC
+20084, 40, ENDIO: run the ISR (device driver)
+20124, 40, ENDIO: run the ISR (device driver)
+20164, 40, ENDIO: run the ISR (device driver)
+20204, 40, ENDIO: run the ISR (device driver)
+20244, 40, ENDIO: run the ISR (device driver)
+20284, 40, ENDIO: run the ISR (device driver)
+20324, 40, ENDIO: run the ISR (device driver)
+20364, 40, ENDIO: run the ISR (device driver)
+20404, 40, ENDIO: run the ISR (device driver)
+20444, 40, ENDIO: run the ISR (device driver)
+20484, 40, ENDIO: run the ISR (device driver)
+20524, 40, ENDIO: run the ISR (device driver)
+20564, 40, ENDIO: run the ISR (device driver)
+20604, 3, ENDIO: run the ISR (device driver)
+20607, 1, IRET
+20608, 48, CPU Burst
+20656, 1, switch to kernel mode
+20657, 10, context saved
+20667, 1, find vector 16 in memory position 0x0020
+20668, 1, load address 0X02DF into the PC
+20669, 40, SYSCALL: run the ISR (device driver)
+20709, 40, SYSCALL: run the ISR (device driver)
+20749, 40, SYSCALL: run the ISR (device driver)
+20789, 40, SYSCALL: run the ISR (device driver)
+20829, 40, SYSCALL: run the ISR (device driver)
+20869, 40, SYSCALL: run the ISR (device driver)
+20909, 40, SYSCALL: run the ISR (device driver)
+20949, 40, SYSCALL: run the ISR (device driver)
+20989, 40, SYSCALL: run the ISR (device driver)
+21029, 40, SYSCALL: run the ISR (device driver)
+21069, 40, SYSCALL: run the ISR (device driver)
+21109, 40, SYSCALL: run the ISR (device driver)
+21149, 40, SYSCALL: run the ISR (device driver)
+21189, 40, SYSCALL: run the ISR (device driver)
+21229, 40, SYSCALL: run the ISR (device driver)
+21269, 40, SYSCALL: run the ISR (device driver)
+21309, 40, SYSCALL: run the ISR (device driver)
+21349, 40, SYSCALL: run the ISR (device driver)
+21389, 40, SYSCALL: run the ISR (device driver)
+21429, 40, SYSCALL: run the ISR (device driver)
+21469, 40, SYSCALL: run the ISR (device driver)
+21509, 40, SYSCALL: run the ISR (device driver)
+21549, 40, SYSCALL: run the ISR (device driver)
+21589, 36, SYSCALL: run the ISR (device driver)
+21625, 1, IRET
+21626, 51, CPU Burst
+21677, 1, switch to kernel mode
+21678, 10, context saved
+21688, 1, find vector 16 in memory position 0x0020
+21689, 1, load address 0X02DF into the PC
+21690, 40, ENDIO: run the ISR (device driver)
+21730, 40, ENDIO: run the ISR (device driver)
+21770, 40, ENDIO: run the ISR (device driver)
+21810, 40, ENDIO: run the ISR (device driver)
+21850, 40, ENDIO: run the ISR (device driver)
+21890, 40, ENDIO: run the ISR (device driver)
+21930, 40, ENDIO: run the ISR (device driver)
+21970, 40, ENDIO: run the ISR (device driver)
+22010, 40, ENDIO: run the ISR (device driver)
+22050, 40, ENDIO: run the ISR (device driver)
+22090, 40, ENDIO: run the ISR (device driver)
+22130, 40, ENDIO: run the ISR (device driver)
+22170, 40, ENDIO: run the ISR (device driver)
+22210, 40, ENDIO: run the ISR (device driver)
+22250, 40, ENDIO: run the ISR (device driver)
+22290, 40, ENDIO: run the ISR (device driver)
+22330, 40, ENDIO: run the ISR (device driver)
+22370, 40, ENDIO: run the ISR (device driver)
+22410, 40, ENDIO: run the ISR (device driver)
+22450, 40, ENDIO: run the ISR (device driver)
+22490, 40, ENDIO: run the ISR (device driver)
+22530, 40, ENDIO: run the ISR (device driver)
+22570, 40, ENDIO: run the ISR (device driver)
+22610, 36, ENDIO: run the ISR (device driver)
+22646, 1, IRET
+22647, 37, CPU Burst
+22684, 1, switch to kernel mode
+22685, 10, context saved
+22695, 1, find vector 1 in memory position 0x0002
+22696, 1, load address 0X029C into the PC
+22697, 40, SYSCALL: run the ISR (device driver)
+22737, 40, SYSCALL: run the ISR (device driver)
+22777, 20, SYSCALL: run the ISR (device driver)
+22797, 1, IRET
+22798, 18, CPU Burst
+22816, 1, switch to kernel mode
+22817, 10, context saved
+22827, 1, find vector 1 in memory position 0x0002
+22828, 1, load address 0X029C into the PC
+22829, 40, ENDIO: run the ISR (device driver)
+22869, 40, ENDIO: run the ISR (device driver)
+22909, 20, ENDIO: run the ISR (device driver)
+22929, 1, IRET
+22930, 11, CPU Burst
+22941, 1, switch to kernel mode
+22942, 10, context saved
+22952, 1, find vector 2 in memory position 0x0004
+22953, 1, load address 0X0695 into the PC
+22954, 40, SYSCALL: run the ISR (device driver)
+22994, 40, SYSCALL: run the ISR (device driver)
+23034, 40, SYSCALL: run the ISR (device driver)
+23074, 30, SYSCALL: run the ISR (device driver)
+23104, 1, IRET
+23105, 46, CPU Burst
+23151, 1, switch to kernel mode
+23152, 10, context saved
+23162, 1, find vector 2 in memory position 0x0004
+23163, 1, load address 0X0695 into the PC
+23164, 40, ENDIO: run the ISR (device driver)
+23204, 40, ENDIO: run the ISR (device driver)
+23244, 40, ENDIO: run the ISR (device driver)
+23284, 30, ENDIO: run the ISR (device driver)
+23314, 1, IRET
+23315, 33, CPU Burst
+23348, 1, switch to kernel mode
+23349, 10, context saved
+23359, 1, find vector 12 in memory position 0x0018
+23360, 1, load address 0X03B9 into the PC
+23361, 40, SYSCALL: run the ISR (device driver)
+23401, 40, SYSCALL: run the ISR (device driver)
+23441, 40, SYSCALL: run the ISR (device driver)
+23481, 25, SYSCALL: run the ISR (device driver)
+23506, 1, IRET
+23507, 75, CPU Burst
+23582, 1, switch to kernel mode
+23583, 10, context saved
+23593, 1, find vector 12 in memory position 0x0018
+23594, 1, load address 0X03B9 into the PC
+23595, 40, ENDIO: run the ISR (device driver)
+23635, 40, ENDIO: run the ISR (device driver)
+23675, 40, ENDIO: run the ISR (device driver)
+23715, 25, ENDIO: run the ISR (device driver)
+23740, 1, IRET
+23741, 88, CPU Burst
+23829, 1, switch to kernel mode
+23830, 10, context saved
+23840, 1, find vector 18 in memory position 0x0024
+23841, 1, load address 0X060A into the PC
+23842, 40, SYSCALL: run the ISR (device driver)
+23882, 40, SYSCALL: run the ISR (device driver)
+23922, 40, SYSCALL: run the ISR (device driver)
+23962, 3, SYSCALL: run the ISR (device driver)
+23965, 1, IRET
+23966, 29, CPU Burst
+23995, 1, switch to kernel mode
+23996, 10, context saved
+24006, 1, find vector 18 in memory position 0x0024
+24007, 1, load address 0X060A into the PC
+24008, 40, ENDIO: run the ISR (device driver)
+24048, 40, ENDIO: run the ISR (device driver)
+24088, 40, ENDIO: run the ISR (device driver)
+24128, 3, ENDIO: run the ISR (device driver)
+24131, 1, IRET
+24132, 28, CPU Burst
+24160, 1, switch to kernel mode
+24161, 10, context saved
+24171, 1, find vector 1 in memory position 0x0002
+24172, 1, load address 0X029C into the PC
+24173, 40, SYSCALL: run the ISR (device driver)
+24213, 40, SYSCALL: run the ISR (device driver)
+24253, 20, SYSCALL: run the ISR (device driver)
+24273, 1, IRET
+24274, 69, CPU Burst
+24343, 1, switch to kernel mode
+24344, 10, context saved
+24354, 1, find vector 1 in memory position 0x0002
+24355, 1, load address 0X029C into the PC
+24356, 40, ENDIO: run the ISR (device driver)
+24396, 40, ENDIO: run the ISR (device driver)
+24436, 20, ENDIO: run the ISR (device driver)
+24456, 1, IRET
+24457, 48, CPU Burst
+24505, 1, switch to kernel mode
+24506, 10, context saved
+24516, 1, find vector 4 in memory position 0x0008
+24517, 1, load address 0X0292 into the PC
+24518, 40, SYSCALL: run the ISR (device driver)
+24558, 40, SYSCALL: run the ISR (device driver)
+24598, 40, SYSCALL: run the ISR (device driver)
+24638, 40, SYSCALL: run the ISR (device driver)
+24678, 40, SYSCALL: run the ISR (device driver)
+24718, 40, SYSCALL: run the ISR (device driver)
+24758, 10, SYSCALL: run the ISR (device driver)
+24768, 1, IRET
+24769, 36, CPU Burst
+24805, 1, switch to kernel mode
+24806, 10, context saved
+24816, 1, find vector 4 in memory position 0x0008
+24817, 1, load address 0X0292 into the PC
+24818, 40, ENDIO: run the ISR (device driver)
+24858, 40, ENDIO: run the ISR (device driver)
+24898, 40, ENDIO: run the ISR (device driver)
+24938, 40, ENDIO: run the ISR (device driver)
+24978, 40, ENDIO: run the ISR (device driver)
+25018, 40, ENDIO: run the ISR (device driver)
+25058, 10, ENDIO: run the ISR (device driver)
+25068, 1, IRET
+25069, 99, CPU Burst
+25168, 1, switch to kernel mode
+25169, 10, context saved
+25179, 1, find vector 18 in memory position 0x0024
+25180, 1, load address 0X060A into the PC
+25181, 40, SYSCALL: run the ISR (device driver)
+25221, 40, SYSCALL: run the ISR (device driver)
+25261, 40, SYSCALL: run the ISR (device driver)
+25301, 3, SYSCALL: run the ISR (device driver)
+25304, 1, IRET
+25305, 56, CPU Burst
+25361, 1, switch to kernel mode
+25362, 10, context saved
+25372, 1, find vector 18 in memory position 0x0024
+25373, 1, load address 0X060A into the PC
+25374, 40, ENDIO: run the ISR (device driver)
+25414, 40, ENDIO: run the ISR (device driver)
+25454, 40, ENDIO: run the ISR (device driver)
+25494, 3, ENDIO: run the ISR (device driver)
+25497, 1, IRET
+25498, 61, CPU Burst
+25559, 1, switch to kernel mode
+25560, 10, context saved
+25570, 1, find vector 16 in memory position 0x0020
+25571, 1, load address 0X02DF into the PC
+25572, 40, SYSCALL: run the ISR (device driver)
+25612, 40, SYSCALL: run the ISR (device driver)
+25652, 40, SYSCALL: run the ISR (device driver)
+25692, 40, SYSCALL: run the ISR (device driver)
+25732, 40, SYSCALL: run the ISR (device driver)
+25772, 40, SYSCALL: run the ISR (device driver)
+25812, 40, SYSCALL: run the ISR (device driver)
+25852, 40, SYSCALL: run the ISR (device driver)
+25892, 40, SYSCALL: run the ISR (device driver)
+25932, 40, SYSCALL: run the ISR (device driver)
+25972, 40, SYSCALL: run the ISR (device driver)
+26012, 40, SYSCALL: run the ISR (device driver)
+26052, 40, SYSCALL: run the ISR (device driver)
+26092, 40, SYSCALL: run the ISR (device driver)
+26132, 40, SYSCALL: run the ISR (device driver)
+26172, 40, SYSCALL: run the ISR (device driver)
+26212, 40, SYSCALL: run the ISR (device driver)
+26252, 40, SYSCALL: run the ISR (device driver)
+26292, 40, SYSCALL: run the ISR (device driver)
+26332, 40, SYSCALL: run the ISR (device driver)
+26372, 40, SYSCALL: run the ISR (device driver)
+26412, 40, SYSCALL: run the ISR (device driver)
+26452, 40, SYSCALL: run the ISR (device driver)
+26492, 36, SYSCALL: run the ISR (device driver)
+26528, 1, IRET
+26529, 35, CPU Burst
+26564, 1, switch to kernel mode
+26565, 10, context saved
+26575, 1, find vector 16 in memory position 0x0020
+26576, 1, load address 0X02DF into the PC
+26577, 40, ENDIO: run the ISR (device driver)
+26617, 40, ENDIO: run the ISR (device driver)
+26657, 40, ENDIO: run the ISR (device driver)
+26697, 40, ENDIO: run the ISR (device driver)
+26737, 40, ENDIO: run the ISR (device driver)
+26777, 40, ENDIO: run the ISR (device driver)
+26817, 40, ENDIO: run the ISR (device driver)
+26857, 40, ENDIO: run the ISR (device driver)
+26897, 40, ENDIO: run the ISR (device driver)
+26937, 40, ENDIO: run the ISR (device driver)
+26977, 40, ENDIO: run the ISR (device driver)
+27017, 40, ENDIO: run the ISR (device driver)
+27057, 40, ENDIO: run the ISR (device driver)
+27097, 40, ENDIO: run the ISR (device driver)
+27137, 40, ENDIO: run the ISR (device driver)
+27177, 40, ENDIO: run the ISR (device driver)
+27217, 40, ENDIO: run the ISR (device driver)
+27257, 40, ENDIO: run the ISR (device driver)
+27297, 40, ENDIO: run the ISR (device driver)
+27337, 40, ENDIO: run the ISR (device driver)
+27377, 40, ENDIO: run the ISR (device driver)
+27417, 40, ENDIO: run the ISR (device driver)
+27457, 40, ENDIO: run the ISR (device driver)
+27497, 36, ENDIO: run the ISR (device driver)
+27533, 1, IRET
+27534, 54, CPU Burst
+27588, 1, switch to kernel mode
+27589, 10, context saved
+27599, 1, find vector 10 in memory position 0x0014
+27600, 1, load address 0X07B0 into the PC
+27601, 40, SYSCALL: run the ISR (device driver)
+27641, 40, SYSCALL: run the ISR (device driver)
+27681, 40, SYSCALL: run the ISR (device driver)
+27721, 40, SYSCALL: run the ISR (device driver)
+27761, 40, SYSCALL: run the ISR (device driver)
+27801, 40, SYSCALL: run the ISR (device driver)
+27841, 40, SYSCALL: run the ISR (device driver)
+27881, 40, SYSCALL: run the ISR (device driver)
+27921, 40, SYSCALL: run the ISR (device driver)
+27961, 40, SYSCALL: run the ISR (device driver)
+28001, 40, SYSCALL: run the ISR (device driver)
+28041, 40, SYSCALL: run the ISR (device driver)
+28081, 40, SYSCALL: run the ISR (device driver)
+28121, 40, SYSCALL: run the ISR (device driver)
+28161, 4, SYSCALL: run the ISR (device driver)
+28165, 1, IRET
+28166, 83, CPU Burst
+28249, 1, switch to kernel mode
+28250, 10, context saved
+28260, 1, find vector 10 in memory position 0x0014
+28261, 1, load address 0X07B0 into the PC
+28262, 40, ENDIO: run the ISR (device driver)
+28302, 40, ENDIO: run the ISR (device driver)
+28342, 40, ENDIO: run the ISR (device driver)
+28382, 40, ENDIO: run the ISR (device driver)
+28422, 40, ENDIO: run the ISR (device driver)
+28462, 40, ENDIO: run the ISR (device driver)
+28502, 40, ENDIO: run the ISR (device driver)
+28542, 40, ENDIO: run the ISR (device driver)
+28582, 40, ENDIO: run the ISR (device driver)
+28622, 40, ENDIO: run the ISR (device driver)
+28662, 40, ENDIO: run the ISR (device driver)
+28702, 40, ENDIO: run the ISR (device driver)
+28742, 40, ENDIO: run the ISR (device driver)
+28782, 40, ENDIO: run the ISR (device driver)
+28822, 4, ENDIO: run the ISR (device driver)
+28826, 1, IRET
+28827, 51, CPU Burst
+28878, 1, switch to kernel mode
+28879, 10, context saved
+28889, 1, find vector 11 in memory position 0x0016
+28890, 1, load address 0X01F8 into the PC
+28891, 40, SYSCALL: run the ISR (device driver)
+28931, 40, SYSCALL: run the ISR (device driver)
+28971, 40, SYSCALL: run the ISR (device driver)
+29011, 40, SYSCALL: run the ISR (device driver)
+29051, 40, SYSCALL: run the ISR (device driver)
+29091, 40, SYSCALL: run the ISR (device driver)
+29131, 40, SYSCALL: run the ISR (device driver)
+29171, 40, SYSCALL: run the ISR (device driver)
+29211, 40, SYSCALL: run the ISR (device driver)
+29251, 40, SYSCALL: run the ISR (device driver)
+29291, 40, SYSCALL: run the ISR (device driver)
+29331, 40, SYSCALL: run the ISR (device driver)
+29371, 40, SYSCALL: run the ISR (device driver)
+29411, 3, SYSCALL: run the ISR (device driver)
+29414, 1, IRET
+29415, 85, CPU Burst
+29500, 1, switch to kernel mode
+29501, 10, context saved
+29511, 1, find vector 11 in memory position 0x0016
+29512, 1, load address 0X01F8 into the PC
+29513, 40, ENDIO: run the ISR (device driver)
+29553, 40, ENDIO: run the ISR (device driver)
+29593, 40, ENDIO: run the ISR (device driver)
+29633, 40, ENDIO: run the ISR (device driver)
+29673, 40, ENDIO: run the ISR (device driver)
+29713, 40, ENDIO: run the ISR (device driver)
+29753, 40, ENDIO: run the ISR (device driver)
+29793, 40, ENDIO: run the ISR (device driver)
+29833, 40, ENDIO: run the ISR (device driver)
+29873, 40, ENDIO: run the ISR (device driver)
+29913, 40, ENDIO: run the ISR (device driver)
+29953, 40, ENDIO: run the ISR (device driver)
+29993, 40, ENDIO: run the ISR (device driver)
+30033, 3, ENDIO: run the ISR (device driver)
+30036, 1, IRET
+30037, 48, CPU Burst
+30085, 1, switch to kernel mode
+30086, 10, context saved
+30096, 1, find vector 6 in memory position 0x000C
+30097, 1, load address 0X0639 into the PC
+30098, 40, SYSCALL: run the ISR (device driver)
+30138, 40, SYSCALL: run the ISR (device driver)
+30178, 40, SYSCALL: run the ISR (device driver)
+30218, 40, SYSCALL: run the ISR (device driver)
+30258, 40, SYSCALL: run the ISR (device driver)
+30298, 40, SYSCALL: run the ISR (device driver)
+30338, 25, SYSCALL: run the ISR (device driver)
+30363, 1, IRET
+30364, 58, CPU Burst
+30422, 1, switch to kernel mode
+30423, 10, context saved
+30433, 1, find vector 6 in memory position 0x000C
+30434, 1, load address 0X0639 into the PC
+30435, 40, ENDIO: run the ISR (device driver)
+30475, 40, ENDIO: run the ISR (device driver)
+30515, 40, ENDIO: run the ISR (device driver)
+30555, 40, ENDIO: run the ISR (device driver)
+30595, 40, ENDIO: run the ISR (device driver)
+30635, 40, ENDIO: run the ISR (device driver)
+30675, 25, ENDIO: run the ISR (device driver)
+30700, 1, IRET
+30701, 21, CPU Burst
+30722, 1, switch to kernel mode
+30723, 10, context saved
+30733, 1, find vector 5 in memory position 0x000A
+30734, 1, load address 0X048B into the PC
+30735, 40, SYSCALL: run the ISR (device driver)
+30775, 40, SYSCALL: run the ISR (device driver)
+30815, 40, SYSCALL: run the ISR (device driver)
+30855, 40, SYSCALL: run the ISR (device driver)
+30895, 40, SYSCALL: run the ISR (device driver)
+30935, 11, SYSCALL: run the ISR (device driver)
+30946, 1, IRET
+30947, 62, CPU Burst
+31009, 1, switch to kernel mode
+31010, 10, context saved
+31020, 1, find vector 5 in memory position 0x000A
+31021, 1, load address 0X048B into the PC
+31022, 40, ENDIO: run the ISR (device driver)
+31062, 40, ENDIO: run the ISR (device driver)
+31102, 40, ENDIO: run the ISR (device driver)
+31142, 40, ENDIO: run the ISR (device driver)
+31182, 40, ENDIO: run the ISR (device driver)
+31222, 11, ENDIO: run the ISR (device driver)
+31233, 1, IRET
+31234, 41, CPU Burst
+31275, 1, switch to kernel mode
+31276, 10, context saved
+31286, 1, find vector 4 in memory position 0x0008
+31287, 1, load address 0X0292 into the PC
+31288, 40, SYSCALL: run the ISR (device driver)
+31328, 40, SYSCALL: run the ISR (device driver)
+31368, 40, SYSCALL: run the ISR (device driver)
+31408, 40, SYSCALL: run the ISR (device driver)
+31448, 40, SYSCALL: run the ISR (device driver)
+31488, 40, SYSCALL: run the ISR (device driver)
+31528, 10, SYSCALL: run the ISR (device driver)
+31538, 1, IRET
+31539, 48, CPU Burst
+31587, 1, switch to kernel mode
+31588, 10, context saved
+31598, 1, find vector 4 in memory position 0x0008
+31599, 1, load address 0X0292 into the PC
+31600, 40, ENDIO: run the ISR (device driver)
+31640, 40, ENDIO: run the ISR (device driver)
+31680, 40, ENDIO: run the ISR (device driver)
+31720, 40, ENDIO: run the ISR (device driver)
+31760, 40, ENDIO: run the ISR (device driver)
+31800, 40, ENDIO: run the ISR (device driver)
+31840, 10, ENDIO: run the ISR (device driver)
+31850, 1, IRET
+31851, 63, CPU Burst
